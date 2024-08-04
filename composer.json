@@ -22,7 +22,11 @@
         "drupal/core-composer-scaffold": "^10.3",
         "drupal/core-project-message": "^10.3",
         "drupal/core-recommended": "^10.3",
+        "drupal/field_permissions": "1.4",
         "drupal/inline_entity_form": "3.0.0-rc15",
+        "drupal/telephone_validation": "2.4",
+        "drupal/webform": "6.2",
+        "drupal/webform_encrypt": "2.0.x-dev@dev",
         "drush/drush": "^12.5"
     },
     "conflict": {

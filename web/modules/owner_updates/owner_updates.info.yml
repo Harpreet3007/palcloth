@@ -1,0 +1,5 @@
+name: 'Owner Updates'
+type: module
+description: 'All custom updates of Owner'
+package: Custom
+core_version_requirement: ^10 || ^11
