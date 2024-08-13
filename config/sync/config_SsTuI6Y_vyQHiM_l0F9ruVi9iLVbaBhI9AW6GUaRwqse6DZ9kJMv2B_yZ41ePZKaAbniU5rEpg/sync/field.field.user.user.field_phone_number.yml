@@ -1,0 +1,27 @@
+uuid: 93880b35-92aa-4593-a0ca-d639b04e91e0
+langcode: hi
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_phone_number
+  module:
+    - telephone
+    - telephone_validation
+    - user
+third_party_settings:
+  telephone_validation:
+    format: 2
+    country:
+      - IN
+id: user.user.field_phone_number
+field_name: field_phone_number
+entity_type: user
+bundle: user
+label: 'Phone Number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

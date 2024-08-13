@@ -1,0 +1,14 @@
+uuid: d3b3989a-5d20-4084-b93a-36f6392a6ee6
+langcode: hi
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - palclothemporium@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

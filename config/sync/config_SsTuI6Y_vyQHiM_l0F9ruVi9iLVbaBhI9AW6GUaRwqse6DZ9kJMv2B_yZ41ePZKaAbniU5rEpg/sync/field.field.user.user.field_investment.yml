@@ -1,0 +1,24 @@
+uuid: 89bdfa91-98f3-4145-9ff8-e932d66f231d
+langcode: hi
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_investment
+  module:
+    - user
+id: user.user.field_investment
+field_name: field_investment
+entity_type: user
+bundle: user
+label: Investment
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: hi
+uuid: bc29ad26-3292-482a-873d-db9a0d6040cd
+name: 'Pal Cloth'
+mail: palclothemporium@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: hi
+mail_notification: null

@@ -1,0 +1,86 @@
+uuid: 3b077698-018d-45ad-8c9e-d586d5133bea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.commerce_remote_id
+    - field.field.user.user.field_address
+    - field.field.user.user.field_first_name
+    - field.field.user.user.field_investment
+    - field.field.user.user.field_last_name
+    - field.field.user.user.field_phone_number
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - address
+    - image
+    - telephone
+    - user
+_core:
+  default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: -10
+    region: content
+  contact:
+    weight: 5
+    region: content
+  field_address:
+    type: address_default
+    weight: 10
+    region: content
+    settings:
+      wrapper_type: fieldset
+    third_party_settings: {  }
+  field_first_name:
+    type: string_textfield
+    weight: 7
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_investment:
+    type: number
+    weight: 11
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_last_name:
+    type: string_textfield
+    weight: 8
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_phone_number:
+    type: telephone_default
+    weight: 9
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  language:
+    weight: 0
+    region: content
+  timezone:
+    weight: 6
+    region: content
+  user_picture:
+    type: image_image
+    weight: -1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden:
+  commerce_remote_id: true
+  customer_profiles: true
+  langcode: true

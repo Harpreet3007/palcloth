@@ -1,0 +1,16 @@
+uuid: d853ad2e-1350-4d34-9ce6-e57935361197
+langcode: hi
+status: true
+dependencies:
+  module:
+    - field_permissions
+id: partner
+label: Partner
+weight: 5
+is_admin: null
+permissions:
+  - 'create field_investment'
+  - 'edit field_investment'
+  - 'edit own field_investment'
+  - 'view field_investment'
+  - 'view own field_investment'

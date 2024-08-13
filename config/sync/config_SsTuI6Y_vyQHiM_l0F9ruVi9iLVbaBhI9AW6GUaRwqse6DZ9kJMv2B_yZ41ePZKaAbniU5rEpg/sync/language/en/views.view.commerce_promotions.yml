@@ -1,0 +1,69 @@
+label: Promotions
+display:
+  default:
+    display_title: Default
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Apply
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      pager:
+        options:
+          tags:
+            previous: ‹‹
+            next: ››
+            first: '« First'
+            last: 'Last »'
+          expose:
+            items_per_page_label: 'Items per page'
+            items_per_page_options_all_label: '- All -'
+            offset_label: Offset
+      fields:
+        name:
+          label: Name
+          separator: ', '
+        offer__target_plugin_id:
+          label: 'Offer type'
+          separator: ', '
+        usage_limit:
+          label: Usage
+          separator: ', '
+        usage_limit_customer:
+          label: 'Per customer limit'
+          separator: ', '
+        start_date:
+          label: 'Start date'
+          separator: ', '
+        end_date:
+          label: 'End date'
+          separator: ', '
+        operations:
+          label: Operations
+      filters:
+        name:
+          expose:
+            label: Name
+        offer__target_plugin_id:
+          expose:
+            label: 'Offer type'
+        code:
+          expose:
+            label: 'Coupon code'
+        status:
+          expose:
+            label: Status
+      title: Promotions
+      empty:
+        area:
+          content:
+            value: 'There are no promotions yet.'
+  admin:
+    display_title: Page
+    display_options:
+      menu:
+        title: List
+      tab_options:
+        title: List

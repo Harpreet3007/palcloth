@@ -1,0 +1,13 @@
+label: Buttons
+description: 'An example of custom buttons.'
+category: Buttons
+template: |
+  <div class="webform-custom-options-buttons">
+  {% for value, text in options %}
+    <div class="webform-custom-options-button" data-option-value="{{ value }}" style="text-align:center">
+    {{ text }}
+    {% if descriptions[value] %}<div class="description">{{ descriptions[value] }}</div>{% endif %}
+    </div>
+  {% endfor %}
+  </div>
+options: '{  }'

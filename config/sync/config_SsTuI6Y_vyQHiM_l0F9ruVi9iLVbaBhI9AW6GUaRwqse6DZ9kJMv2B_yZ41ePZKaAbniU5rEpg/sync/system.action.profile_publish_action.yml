@@ -1,0 +1,16 @@
+uuid: 23436c3d-efaa-4f20-8135-e7e6c9b192d2
+langcode: hi
+status: true
+dependencies:
+  module:
+    - profile
+  enforced:
+    module:
+      - profile
+_core:
+  default_config_hash: jjClImKlBhvh__KZnX6YkW_Kc1yZvqXODbUHt30A8z4
+id: profile_publish_action
+label: 'Publish selected profile'
+type: profile
+plugin: 'entity:publish_action:profile'
+configuration: {  }

@@ -1,0 +1,5 @@
+label: 'U.S. states'
+description: 'A clickable map of U.S. states.'
+help: 'A clickable map of U.S. states.'
+category: Maps
+url: us_states.svg

@@ -1,0 +1,24 @@
+uuid: bf63a64a-d385-4c2b-b624-6c0d09f0f956
+langcode: hi
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - user
+third_party_settings:
+  field_permissions:
+    permission_type: custom
+id: user.field_investment
+field_name: field_investment
+entity_type: user
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
